@@ -1,0 +1,54 @@
+ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #333;
+  
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover 
+{
+  background-color: #111;
+}
+.active {
+  background-color: #4CAF50;
+}
+
+.heading
+{
+    text-align :center;
+    text-decoration: underline;
+    color : red;
+    text-decoration: underline;
+}
+.heading2
+{
+    text-align :left;
+    text-decoration: underline;
+    color :Grey;
+    text-decoration: underline;
+}
+.quest
+{
+    text-align:left;
+    color:black;
+     text-shadow: red;
+     font-size: 1.5em;
+     text-decoration: underline;
+}
+.ans
+{
+text-align:left;
+color:black;
+font-size: 1.2em;
+}
