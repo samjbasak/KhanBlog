@@ -7,33 +7,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="/Users/codenation/Documents/Blog/index1.css">
     <script src="main.js"></script>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 </head>
 <body>
-  <ul >
-  <li style="float:left"><a href="#home">Home</a></li>
-  <li style="float:left"><a href="#news">News</a></li>
-  <li style="float:left"><a href="#contact">Contact</a></li>
-  <li style="float:left"><a href="#Assingments">Assignments</a><li>
-  <li style="float:right"><a class="active" href="#about">About</a></li>
+<script>
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script>
+  
+
+<nav>
+<div class ="nav" >
+  <ul>
+]
+  <li> <a href="#home">Home</a></li>
+  <li ><a href="#news">News</a></li>
+  <li ><a href="#contact">Contact</a></li>
+  <li style="float:right"> <a class="active" href="#about">About</a></li>
+  <li class="dropdown"> <a href="#Assingments">Assignments</a>
+    <div class="dropdown-content">
+  <a href="#Assign1">Assingment1</a>
+  <a href="#Assign2">Assingment2</a>
+    </div>
+    
+    </ul>
+    </li>
+</nav>
 </ul>
-<div class ="heading">
+</div>  
+
+<div id = "Assign1"></div>
+<div  class ="heading">
 <h1>Unit 1: Improving Productivity with IT  Project: 1</h1>
 </div>
-<div class = "heading1">
-</div>
-<h1> Scenario: </h1>
+<div class = "heading1"><h1>Assignment No.1 (Scenario:1) </h1></div>
 <div class = " heading2"> 
 <h2>   You are wanting to set up as a consultant. 
 To prove your knowledge you want to start by creating a blog talking about yourself, 
 why you are interested in technology and demonstrate how much you know.
 For each of the sections below asking you to describe,
 include around a paragraph of information about the topic. </h2>
-</div>    
+</div> 
+<br>   
 <div class="quest"> 1.1 Describing the purpose of IT in modern business? </div>
 <div class="ans">Information technology (IT) has become a vital and integral part of every business plan. From multi-national corporations who maintain mainframe systems and databases to small businesses that own a single computer, IT plays a role. The reasons for the omnipresent use of computer technology in business can best be determined by looking at how it is being used across the business world.
 <ol>
 <li>Communication Between Employees, Suppliers and Customers</li>
-<p>  or many companies, email is the principal means of communication between employees, suppliers and customers. Email was one of the early drivers of the Internet, providing a simple and inexpensive means to communicate. Over the years, a number of other communications tools have also evolved, allowing staff to communicate using live chat systems, online meeting tools and video-conferencing systems. Voice over internet protocol (VOIP) telephones and smart-phones offer even more high-tech ways for employees to communicate.</p>
+<p> or many companies, email is the principal means of communication between employees, suppliers and customers. Email was one of the early drivers of the Internet, providing a simple and inexpensive means to communicate. Over the years, a number of other communications tools have also evolved, allowing staff to communicate using live chat systems, online meeting tools and video-conferencing systems. Voice over internet protocol (VOIP) telephones and smart-phones offer even more high-tech ways for employees to communicate.</p>
 <li> Inventory Management Systems</li>
 <p> When it comes to managing inventory, organizations need to maintain enough stock to meet demand without investing in more than they require. Inventory management systems track the quantity of each item a company maintains, triggering an order of additional stock when the quantities fall below a pre-determined amount. These systems are best used when the inventory management system is connected to the point-of-sale (POS) system. The POS system ensures that each time an item is sold, one of that item is removed from the inventory count, creating a closed information loop between all departments.</p>
 <li> Data Management Systems</li>
@@ -60,18 +93,18 @@ The entire interaction is stored in the CRM system, ready to be recalled if the 
     <li>Organizational Structure: The 'meshing' of project requirements into the existing organization.</li>
     <li>Information and Control Systems: These must be structured to handle problems through the typical lines of authority</li>
 </ol>
-<p><h4> Project Management:</h4></P>
-<p> Initiating the Project</p>
+<p><h4>Project Management:</h4></P>
+<p><h5>Initiating the Project</h5></p>
 The project management techniques related to the project initiation phase include: 
-<ol>
 
+<ol>
 <li>Establishing the project initiation team. This involves organizing team members to assist in carrying out the project initiation activities.</li>
 <li>Establishing a relationship with the customer. The understanding of your customer's organization will foster a stronger relationship between the two of you.</li>
 <li>Establishing the project initiation plan. Defines the activities required to organize the team while working to define the goals and scope of the project.</li>
 <li>Establishing management procedures. Concerned with developing team communication and reporting procedures, job assignments and roles, project change procedure, and how project funding and billing will be handled.</li>
 <li>Establishing the project management environment and workbook. Focuses on the collection and organization of the tools that you will use while managing the project. </li>  
-
-<p>Executing the Project</p>
+</ol>
+<p><h5>Executing the Project:</h5></p>
 The project management techniques related to the project execution phase include:
 <ol>
 <li>Executing the baseline project plan. The job of the project manager is to initiate the execution  of project activities, acquire and assign resources, orient and train new team members, keep the project on schedule, and assure the quality of project deliverables.</li>
@@ -79,8 +112,8 @@ The project management techniques related to the project execution phase include
 <li>Managing changes to the baseline project plan.</li>
 <li>Maintaining the project workbook. Maintaining complete records of all project events is necessary. The project workbook is the primary source of information for producing all project reports.</li>
 <li>Communicating the project status. This means that the entire project plan should be shard with the entire project team and any revisions to the plan should be communicated to all interested parties so that everyone understands how the plan is evolving. </li>
-
-<p> Closing Down the Project </p>
+</ol>
+<p><h5> Closing Down the Project:</h5></p>
 <ol>
 <li>Link project goals and objectives to stakeholder needs</li>
 <li>Focus on customer needs.</li>
@@ -99,7 +132,7 @@ The project management techniques related to the project execution phase include
 We have covered Software Development tools in the following categories
 <ol>
 <li>IDE (Integrated Development Environment)</li>
-<P> is a software application that provides comprehensive facilities to computer programmers for software development. An IDE normally consists of:
+<P>is a software application that provides comprehensive facilities to computer programmers for software development. An IDE normally consists of:
 a source code editor
 a compiler and/or an interpreter
 build automation tools
@@ -130,9 +163,9 @@ Here are listed below the Frameworks tools
 </ol>
 <br>
 <li>Cloud Tools</li>
-<p>   Cloud-based is a term that refers to applications, services or resources made available to users on demand via the Internet from a cloud computing provider's servers.Here are listed below the Cloud Tools     </p>
+<p> Cloud-based is a term that refers to applications, services or resources made available to users on demand via the Internet from a cloud computing provider's servers.Here are listed below the Cloud Tools     </p>
 <ol>
-<li> Kwatee    </li>
+<li>Kwatee    </li>
 <li>Azure   </li>
 </ol>
 
@@ -147,7 +180,7 @@ Here are listed below the Frameworks tools
 <li>Source Control</li>
 <p> allows developers to review code, manage projects, and build software. It offers right tool for different development jobs. Here are listed below the Source Control Tools   </p>
 <ol>
-<li> GitHub   </li>
+<li>GitHub   </li>
 <li>BitBucket</li>
 <li>cloudforge </li>
 </ol>
@@ -260,10 +293,9 @@ Auditing and documenting where you hold this data – internal and external data
 Noting who controls this data – internal and external data controllers  </P>  
 
 <h1> Review: </h1>
-<div class = " heading2"> 
-<h2> 2.1 Review the ongoing use of IT tools and change approach as needed – in making your own website, are you happy with the tools you used?   </h2>
+<div class = "quest"><h2> 2.1 Review the ongoing use of IT tools and change approach as needed – in making your own website, are you happy with the tools you used?   </h2></div>
 <div class="ans"><p>i have used vs studio , trello, and slack to design my web page or blog.Vs studio helped me a lot to
-develop and design  my html and css pages..while trello and slack are good for organising the information.</p>
+develop and design  my html and css pages..while trello and slack are good for organising the information.</p></div>
 <div class = "quest"> 2.2 Describe whether the IT tools selected were appropriate   </div>
 <div class="ans"> <p> i have used vs studio , trello, and slack to design my web page or blog.Vs studio helped me a lot to
 develop and design  my html and css pages..while trello and slack are good for organising the information</p>
@@ -317,7 +349,188 @@ Reliability testing
 Usability testing
 Compliance testing
 Localization testing 
-</div></p>
+</p></div>
+
+<div id = "Assign2"> </div>
+<h1> Assignment -2 (Scenario:2)    </h1>
+<h2> Unit 2: Website Software  </h2>
+<div class = " heading2"><h2> You are setting up as an independent consultant, which is very exciting, however, you’re going to need a website of your own to highlight your skills, availability and areas of work. It’s time for you to create a website that details you, and including pages/sections and a how you built it page: </h2>
+</div>    
+<div class="quest">  1.1 Describing the content and layout for each page  </div>
+<div class="ans"> <p> i am going to setup a webpage using vs studio ,programming in java script, html and css.
+i am thinking a nevigational bar at the top with the displaying some manues on the top ,which are contact,home,news
+and assingments tag bar.i am plaining to put a bottom to top navigaional bar as well.i want to show the web page information 
+about information technologies and the essential use of them in modren world.</p></div>
+<div class ="quest"> 1.5 Describing copyright and other constraints affecting websites    </div>
+<div class = "ans"  > <p> Copyright is legal right that protects the use of your work once your idea has been physically expressed. The current copyright legislation in the UK is the Copyright, Designs and Patents Act 1988.
+ Copyright law lays out a framework of rules around how that work can be used. It sets out the rights of the owner, as well as the responsibilities of other people who want to use the work. You can do many things with your copyright work including for example copy, change or sell it, share it online or rent it to someone as well as prevent other people from doing those things.                 copyright is a serious crime in modren world.Copying some one design ,information or 
+even ideas are subjected to copyright rule.  Copyright protection arises automatically as soon as your work is created. Unlike a patent or trademark, you don’t need to register your work to ensure your rights are protected by copyright. .i will try to avoid these conflicts while designing my website.page.
+As a refrence i will try to copy some definitions and explanations from the internet just for educational purpose but not
+for the business purpose.
+The period your copyright work is protected for depends on a number of factors such as the type of work you have created and when it was made.  For example, when you write a poem your work will be protected until 70 years after your death. But if you act in a play, any rights in your performance are protected for a period of 50 years.</p></div>
+<div class ="quest"> 1.6 Describing access issues that need taking into account - describe issues that people with disabilities may face when using webpages and how we can overcome them.
+How Different Disabilities Affect Access to the Web? </div>
+<div class ="ans"><p>This section describes several general groupings of disabilities, and how they affect access to the Web. There are no universally accepted or absolute categorizations of disability. Disability terminology varies from country to country, and between different disability communities in the same country. Abilities can vary from person to person, or over time, for different people with the same kind of disability. People can have combinations of different limitations, such as a visual and hearing disability together. This particular combination of disabilities is described below.
+
+The term disability itself is also used very generally in this document. Many people with conditions described below would not consider themselves to have disabilities; they may, however, have limitations related to sensory, physical or cognitive functioning which can affect access to the Web. Limitations can include injury-related and aging-related conditions, and can be temporary ,or chronic. An example of an injury-related limitation that is temporary for some people and chronic for others repetitive stress syndrome. There is a trend in some communities away from using medical terminology to describe disability, and a trend in many communities away from using negative terminology or epithets frequently used in the past. This Draft Note does not attempt to comprehensively address these issues of terminology.
+
+Different disabilities sometimes require similar accommodations. For instance, both someone who is blind and someone who cannot use his or her hands require full keyboard support for the commands in browsers and authoring tools, since they both have difficulty using a mouse but can use different assistive technologies to activate commands that are supported by a standard keyboard interface.
+
+The number and severity of disabilities tend to increase as people with age, and may include changes in vision, hearing, memory, or motor function, which can be accommodated on the Web as with any other disabilities.
+
+Many of the accessibility solutions described in this Note contribute to universal designor design for all by benefiting non-disabled users. For example, support for speech output not only benefits blind users, but also Web users whose eyes are busy with other tasks; while captions of audio not only benefit deaf users but also increase the efficiency of indexing and searching audio content on Web sites.
+
+Solutions for the barriers to Web site accessibility described in this section are available in the Web Content Accessibility Guidelines 1.0. Solutions for browser accessibility are available in the User Agent Accessibility Guidelines, and for authoring tool accessibility in the Authoring Tool Accessibility Guidelines.
+
+Visual Disabilities
+Blindness
+Blindness involves a substantial uncorrectable loss of vision in both eyes.
+
+To access the Web, most individuals who are blind rely on screen readers (software that reads text on the screen with a synthetic voice) and/or refreshable braille displays (a device that dynamically displays lines of text on the screen in braille). Some people who are blind prefer text-based browsers to graphical browsers.
+
+Barriers that people with blindness may encounter on the Web include:
+images that do not have alt text
+complex images (e.g., graphs or charts) that are not adequately described
+video that is not described in text or audio
+tables that do not make sense when read serially (in a cell-by-cell mode)
+frames that do not have NOFRAME alternatives, or that do not have meaningful names
+forms that cannot be tabbed through in a logical sequence, or that are poorly labelled
+browsers and authoring tools that lack keyboard support for all commands
+browsers and authoring tools that do not use standard applications programmer interfaces for the operating system they are based in
+non-standard document formats
+Low Vision
+There are many types of low vision, including poor acuity (vision that is not sharp), tunnel vision (seeing only the middle of the visual field),
+central field loss (seeing only the edges of the visual field), and clouded vision.
+
+To use the Web, some people with low vision use extra-large monitors and increase the size of system fonts and images. Others use screen magnification or screen enhancement software. Some individuals prefer specific combinations of text and background colors, such as a 24-point bright yellow font on a black background, or choose certain typefaces that they find especially legible. 
+
+Barriers that people with low vision may encounter on the Web include:
+Web pages with absolute font sizes that do not enlarge easily
+Web pages that, because of inconsistent layout, are difficult to navigate when enlarged, due to loss of surrounding context
+browsers that do not support user override of authors' style sheets
+Color Blindness
+Color blindness is a lack of sensitivity to certain colors. Common forms of color blindness include difficulty distinguishing between red and green, or between yellow and blue. Sometimes color blindness results in the inability to perceive any color.
+
+To use the Web, people with color blindness may use their own style sheets to override the font and background color choices of the author.
+
+Barriers that people with color blindness may encounter on the Web include:
+color that is used as a unique marker to emphasize text on a Web site
+text that inadequately contrasts with background color or patterns
+browsers that do not support user override of authors' style sheets
+Hearing Disabilities
+Deafness
+Deafness involves a substantial uncorrectable impairment of hearing in both ears. Some deaf individuals' first language is a sign language, and they may or may not be fluent readers of a written language.
+
+To use the Web, people who are deaf may rely on captions for audio content.
+
+Barriers that people who are deaf may encounter on the Web include:
+lack of captions or transcripts for audio content on the Web
+lack of visual signposts in pages full of text, which can slow comprehension for non-native readers of a written language
+Hard of hearing
+A person with a mild to moderate hearing impairment may be considered hard of hearing. 
+
+To use the Web, people who are hard of hearing may rely on captions for audio content together with amplification of audio.
+
+Barriers encountered on the Web include:
+lack of captions or transcripts for audio content
+Physical Disabilities
+Motor
+Motor disabilities can include weakness, limitations of muscular control (such as involuntary movements, a lack of coordination, or paralysis), limitations of sensation, joint problems, or missing limbs. Some physical disabilities can include pain which further impedes movement. Any of these conditions can affect the hands and arms as well as other parts of the body.
+
+To use the Web, people with disabilities affecting the hands or arms may use a specialized mouse; a keyboard with a layout of keys that matches their range of motion; a head-mouse, head-pointer, or mouth-stick; voice-recognition software; an eye-gaze system, or other assistive technologies to access and interact with the information on Web sites. They may activate commands by using single keystrokes rather than the simultaneous keystrokes needed to activate commands in some applications. They may need more time when filling out interactive forms on Web sites.
+
+Barriers that people with motor disabilities affecting the hands or arms may encounter include:
+browsers and authoring tools that do not support serialized keystrokes for commands
+forms that cannot be tabbed through in a logical order
+interactive forms with time-limited response options
+Speech
+Speech disabilities can include difficulty producing speech that is recognizable by some voice recognition software, either in terms of loudness or clarity.
+
+To use parts of the Web that are beginning to rely on voice recognition, someone with a speech disability needs to be able to use an alternate input mode such as text entered via a keyboard.
+
+Barriers that people with speech disabilities encounter on the Web include:
+Web sites that require voice-based interaction and have no alternative input mode
+Cognitive and Neurological Disabilities
+Learning disabilities
+Individuals with learning disabilities may have difficulty processing written language or images when read visually, or spoken language when heard, or numbers when read visually or heard. Specific learning disabilities can affect the ability to focus.
+
+To use the Web, people with learning disabilities may rely on getting information through several modalities at the same time. For instance, someone who has difficulty reading may use speech output to facilitate comprehension, while someone with an auditory learning disability may use captions to help understand an audio track. An individual who is highly distractible may need to turn off animations on a site in order to be able to focus on the site's content.
+
+Barriers that people with learning disabilities may encounter on the Web include:
+lack of alternative modalities for information on Web sites, for instance lack of alternative text that can be converted to audio to supplement visuals, or the lack of captions for audio
+distracting visual or audio elements that cannot easily be turned off
+lack of clear and consistent organization of Web sites
+Impairments of intelligence
+Some individuals learn more slowly or have difficulty understanding complex concepts. 
+
+To use the Web, people with impairments of intelligence may take more time on a Web site, may rely more on graphics to enhance understanding of a site, and may benefit from the level of language on a site not being unnecessarily complex for the site's intended purpose.
+
+Barriers include:
+lack of clear or consistent organization of Web sites
+use of unnecessarily complex language on Web sites
+lack of graphics on Web sites
+Memory impairments
+Individuals may have memory difficulties for a variety of reasons: for instance problems with short-term memory, missing long-term memory, or loss of language. 
+
+To use the Web, people with memory impairments may rely on a consistent navigational structure throughout the site, and...
+
+Barriers include:
+lack of clear or consistent organization of Web sites
+Seizure disorders
+Some individuals with seizure disorders are triggered by visual flickering or audio signals at a certain frequency. 
+
+To use the Web, people with seizure disorders may turn off animations, blinking text, or audio.
+
+Avoidance of these visual or audio frequencies in Web sites prevents inadvertent triggering of seizures. Barriers include:
+use of visual or audio frequencies that can trigger seizures
+Psychiatric disabilities
+Individuals with mental or emotional disabilities may have difficulty focusing. 
+
+To use the Web, people with psychiatric disabilities may turn off distracting visual or audio elements.
+
+Barriers include:
+lack of clear and consistent organization of a Web sites
+distracting visual or audio elements
+2. Tools
+[This section has not been revised yet.]
+
+The following is a list of assistive technologies that some people with disabilities use to browse the Web. Assistive technologies are products used by people with disabilities to help accomplish tasks that they cannot accomplish otherwise or could not do easily otherwise. When dealing with the Web, assistive technologies usually refer to adaptive software, specially designed hardware devices, and or standard devices used in alternative ways to provide access for people with disabilities.
+
+Some assistive technologies rely on output of other user agents, such as graphical desktop browsers, text browsers, voice browsers, multimedia players, plug-ins.
+
+Alternate keyboards or switches
+Hardware or software devices, used by people with physical disabilities, that provide an alternate way of creating keystrokes that appear to come from the standard keyboard. Examples include on-screen keyboards, eyegaze keyboards, and sip-and-puff switches. Applications that can be operated entirely from the standard keyboard , with no mouse movements required, support single-switch access or access via alternative keyboards.
+Braille and refreshable braille
+Braille is a technique involving six to eight dots that are raised in different patterns to represent letters and numbers so that they may be read by people who are blind using their fingertips. Braille systems vary greatly around the world. Some  grades of braille include additional codes beyond standard alpha-numeric characters, to represent common letter groupings (e.g., th, ble, in Grade II American English braille) to make braille more compact. An 8-dot version of braille has been developed to allow all ASCII characters to be represented. Dynamic or refreshable braille involves the use of a mechanical display where dots can be raised and lowered dynamically to allow any braille words to be displayed. 
+Only letters and numbers can be represented in braille, although some braille printers have a utility that allows simple graphics to be drawn on a sheet using the raised dots at a resolution of approximately 11 dots per inch.
+Screen magnifiers
+Software used primarily by individuals with low vision that magnifies a portion of the screen for easier viewing. Note that at the same time screen magnifiers make presentations larger, they also reduce the area of the document that may be viewed. Some screen magnifiers therefore offer two views of the screen: one magnified and one default size for navigation.
+Screen readers:
+Software used by individuals who are blind or have learning disabilities that interprets what is displayed on a screen, and directs it either to speech synthesis, for audio output, or refreshable braille, for tactile output. Some screen readers use the document tree (i.e., the parsed document) as their input. However, older screen readers make use of the rendered version of a document, meaning that document order or structure may be lost (e.g., when tables are used for layout) and their output may be confusing.
+Sound notification
+Features of some operating systems that allow deaf or hard of hearing users to receive visual notification that a warning or error sound has been emitted by the computer.
+Scanning software
+Software used by individuals with some physical or cognitive disabilities that highlights or announces selection choices (e.g., menu items, groups of possible phrases, etc.) one at a time. A user selects a desired item by hitting a switch when the desired item is highlighted or announced.
+Voice recognition
+Voice recognition is used by people with some physical disabilities or temporary injuries to hands and forearms -- as well as some users interested in greater convenience, and as an input method in some voice browsers. Applications that have full keyboard support can be used with voice recognition.</p></div>
+<div class = "quest"> 1.7 Describe which are the appropriate filetypes for websites "  </div>
+<div class = "ans" ><p>  JPG. JPG is perhaps the most common image format used on the web. ...
+PNG. PNG is another very common and versatile image format found on the web today. ...
+GIF. GIF is a growing force on the web now. ...
+TIF. TIF is known as the highest quality image format, is best used for commercial print work and shouldn't be used on the web
+While downloading files and viewing websites, you’ll meet up with many file formats. Most are common, and encountered frequently, others are more obscure and require specialist programs to open or use. Here, we have a list of the file types, along with the applications you’ll need to get them going on your computer.
+
+Page Navigation:
+.AVI | .CSS | .DOC | .EXE | .GIF | .HTML/ .HTM | .JPG/ .JPEG | .MID/ .MIDI | .MP3 | .MPG/ .MPEG | .MOV/ .QT | .PDF | .PNG | .RAM | .RAR | .TIFF | .TXT | .WAV | .ZIP | Streaming Media ]      </p></div>
+
+
+<div id = "about"> </div>
+<div class = "heading1"><h1>About Me </h1></div>
+<div><h2> TAHIR KHAN <h2></div>
+<h3> Devloped Project at  Code Nation </h3>
+
+
+
 
 </body>
 </html>
